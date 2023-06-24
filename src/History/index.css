@@ -1,0 +1,49 @@
+.eachBrowserHistory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 550px;
+  height: 35px;
+
+  font-family: 'roboto';
+  font-size: 10px;
+}
+.time {
+  font-size: 10px;
+  margin: 10px;
+  color: #475569;
+}
+.image-logo {
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+}
+.title {
+  font-weight: 200;
+  margin: 10px;
+  color: #475569;
+  font-weight: bold;
+}
+.domainUrl {
+  color: #64748b;
+}
+.delete-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  align-self: flex-end;
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.delete-img {
+  height: 15px;
+  width: 15px;
+}
+.browser-container {
+  display: flex;
+  flex-direction: row;
+}
